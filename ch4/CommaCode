@@ -1,0 +1,10 @@
+spam = [3.14,'cat',11,'cat',True]
+print(spam)
+
+concatSpam = str(spam[0])
+print(concatSpam)
+
+for i in range(1, len(spam)):
+    concatSpam = concatSpam + ", and " + str(spam[i])
+
+print(concatSpam)
